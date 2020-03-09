@@ -34,6 +34,10 @@
 					top 1px
 					width 14px
 				}
+
+				@media screen and (max-width: 500px) {
+					margin-left	0
+				}
 			}
 
 			&.social-linkedin {

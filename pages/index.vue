@@ -17,6 +17,10 @@
 		.content {
 			padding 60px 70px
 			text-align center
+
+			@media screen and (max-width: 600px) {
+				padding	40px 20px
+			}
 		}
 	}
 </style>

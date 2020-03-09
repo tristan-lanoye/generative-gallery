@@ -13,7 +13,11 @@
 		font-size 14px
 		opacity 0.8
 
-		.description {}
+		@media screen and (max-width: 500px) {
+			margin-top 80px
+			padding 0 30px
+			line-height 180%
+		}
 	}
 </style>
 

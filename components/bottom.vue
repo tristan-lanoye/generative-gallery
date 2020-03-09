@@ -11,6 +11,11 @@
 		margin-top 160px
 		margin-bottom 60px
 
+		@media screen and (max-width: 500px) {
+			margin-top 80px
+			margin-bottom 30px
+		}
+
 		.back-to-top {
 			font-size 14px
 

@@ -5,7 +5,7 @@
 			<a href="https://tristan-lanoye.com" target="_blank" class="name">tristan lanoye</a>
 		</div>
 		<div class="middle">
-			<h1 class="title" @click="scrollToTop">generative gallery</h1>
+			<h1 class="title">generative gallery</h1>
 		</div>
 		<div class="right">
 			<socials/>
@@ -20,6 +20,12 @@
 		justify-content space-between
 		align-items center
 		font-family 'Circular Book'
+
+		@media screen and (max-width: 500px) {
+			flex-direction column
+			justify-content center
+			align-items center
+		}
 
 		.line {
 			position absolute
@@ -38,16 +44,28 @@
 			display flex
 			justify-content flex-start
 			flex 1
+
+			@media screen and (max-width: 500px) {
+				margin-bottom 20px
+			}
 		}
 
 		.middle {
 			flex 1
+
+			@media screen and (max-width: 500px) {
+				margin-bottom 35px
+			}
 		}
 
 		.right {
 			display flex
 			justify-content flex-end
 			flex 1
+
+			@media screen and (max-width: 500px) {
+				// margin-bottom 20px
+			}
 		}
 
 		.name {

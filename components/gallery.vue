@@ -14,14 +14,30 @@
 		font-family 'Circular Book'
 		font-size 14px
 
+		@media screen and (max-width: 500px) {
+			margin-top 60px
+		}
+
 		.grid {
 			width 75%
 			margin 0 auto
 			text-align center
 
+			@media screen and (max-width: 600px) {
+				width 100%
+			}
+
 			.grid-item {
 				padding 10px
 				width calc(100% / 3)
+
+				@media screen and (max-width: 1096px) {
+					width calc(100% / 2)
+				}
+
+				@media screen and (max-width: 768px) {
+					width calc(100% / 1)
+				}
 
 				img {
 					width 100%
