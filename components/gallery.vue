@@ -2,7 +2,7 @@
 	<div class="gallery-container">
 		<div class="grid">
 			<div class="grid-item" v-for="(image, i) in images" :key="i + Math.random()">
-				<img :src="image.src" :alt="image.alt">
+				<img :src="$router.options.base + image.src" :alt="image.alt">
 			</div>
 		</div>
 	</div>

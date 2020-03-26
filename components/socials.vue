@@ -1,7 +1,7 @@
 <template>
 	<div class="socials-container">
 		<a :href="social.link" v-for="(social, i) in socials" :key="Math.random() * i" target="_blank" :class="['link', social.class]" :title="social.alt">
-			<img :src="social.icon" :alt="social.label">
+			<img :src="$router.options.base + social.icon" :alt="social.label">
 		</a>
 	</div>
 </template>
