@@ -82,7 +82,6 @@
 		.title {
 			font-size 14px
 			font-family 'Circular Medium'
-			cursor pointer
 		}
 	}
 </style>

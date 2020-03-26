@@ -130,6 +130,13 @@ export const state = () => ({
 			alt: 'Portfolio'
 		},
 		{
+			label: 'github',
+			link: 'https://github.com/tristan-lanoye',
+			class: 'social-github',
+			icon: '/icons/social-github.svg',
+			alt: 'Github'
+		},
+		{
 			label: 'twitter',
 			link: 'https://twitter.com/tristan_yj',
 			class: 'social-twitter',
